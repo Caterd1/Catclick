@@ -1,0 +1,46 @@
+body {
+    box-sizing: border-box;
+    background-image: url("images/background-catblue.jpg");
+    background-repeat: no-repeat;
+    max-height: 1200px;
+    max-width: 1200px;
+    color: #b7bac3
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cat-list li{
+    list-style-type: none;
+    padding: 5px;
+}
+
+.cat-list a  {
+    padding: 5px;
+    color: #b7bac3;
+    text-decoration: none;
+}
+
+
+a:hover { 
+    padding: 5px;
+    background-color:rgba(183,186,195,0.3)
+}
+
+.cat-display-1, .cat-display-2 {
+    width: 500px;
+    height: 400px;
+    border: solid  1p #20364d;
+}
+
+.cat-selection {
+    display: flex;
+    justify-content: space-around;
+}
